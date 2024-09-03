@@ -76,7 +76,7 @@ Choose and install one of the following terminal emulators:
 **WezTerm Configuration**
 
 ```powershell
-cp .config/wezterm/wezterm.lua %userprofile%
+cp .wezterm.lua %userprofile%
 
 # Uncomment for Windows settings
 
