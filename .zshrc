@@ -160,6 +160,17 @@ function openNvim {
   fi
 }
 
+function copy {
+  if command -v xclip >/dev/null 2>&1; then
+    output=$( { "$@" 2>&1; } )
+    echo "$output" | xclip -selection clipboard
+    echo "$output"
+  else
+    echo "Error: xclip no está instalado. Por favor, instálalo e inténtalo de nuevo." >&2
+    return 1
+  fi
+}
+
 # Console Ninja Path
 export PATH=~/.console-ninja/.bin:$PATH
 
