@@ -92,10 +92,7 @@ cp .wezterm.lua %userprofile%
 
 Choose and install one of the following terminal emulators:
 
-- **WezTerm**
-
-  [Download and Install](https://wezfurlong.org/wezterm/installation.html).
-
+- **WezTerm** [Download and Install](https://wezfurlong.org/wezterm/installation.html).
 
 #### Step 2: Configuration Transfer for Terminal Emulators
 
