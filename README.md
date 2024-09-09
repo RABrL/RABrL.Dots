@@ -75,6 +75,11 @@ Choose and install one of the following terminal emulators:
 
 **WezTerm Configuration**
 
+```bash
+git clone git@github.com:RABrL/RABrL.Dots.git
+cd RABrL.Dots
+```
+
 ```powershell
 cp .wezterm.lua %userprofile%
 
@@ -82,8 +87,7 @@ cp .wezterm.lua %userprofile%
 
 # config.default_domain = 'WSL:Ubuntu'
 
-# config.front_end = "WebGpu"
-# config.max_fps = 120
+# config.front_end = "OpenGL"
 ```
 
 ### For macOS/Linux/WSL
@@ -97,6 +101,11 @@ Choose and install one of the following terminal emulators:
 #### Step 2: Configuration Transfer for Terminal Emulators
 
 **WezTerm Configuration**
+
+```bash
+git clone git@github.com:RABrL/RABrL.Dots.git
+cd RABrL.Dots
+```
 
 ```bash
 cp .wezterm.lua ~/.config/wezterm/wezterm.lua
@@ -141,11 +150,6 @@ cp .wezterm.lua ~/.config/wezterm/wezterm.lua
    sudo chsh -s $(which zsh)
    ```
 
-6. **Apply Zsh Configuration**
-
-   ```bash
-   source ~/.zshrc
-   ```
 
 #### Step 4: Additional Configurations
 
@@ -183,7 +187,7 @@ cp .wezterm.lua ~/.config/wezterm/wezterm.lua
 ##### Neovim Configuration
 
 ```bash
-cp -r .config ~/.config
+cp -r .config/nvim ~/.config
 ```
 
 Restart Neovim to apply the changes.
@@ -200,4 +204,10 @@ Restart Neovim to apply the changes.
 
    ```bash
    cp -r .config/zellij ~/.config
+   ```
+
+3. **Apply Zsh Configuration**
+
+   ```bash
+   source ~/.zshrc
    ```
