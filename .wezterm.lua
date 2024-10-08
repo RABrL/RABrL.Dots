@@ -50,7 +50,7 @@ config.colors.indexed = { [16] = "#ffa066", [17] = "#ff5d62" }
 config.window_background_opacity = 0.95
 config.font = wezterm.font("CaskaydiaCove NFM")
 config.hide_tab_bar_if_only_one_tab = true
-
+-- config.enable_wayland = false
 -- activate ONLY if windows --
 
 -- config.default_domain = 'WSL:Ubuntu'

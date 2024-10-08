@@ -50,18 +50,11 @@ config.colors.indexed = { [16] = "#ffa066", [17] = "#ff5d62" }
 config.window_background_opacity = 0.95
 config.font = wezterm.font("CaskaydiaCove NFM")
 config.hide_tab_bar_if_only_one_tab = true
-
+-- config.enable_wayland = false
 -- activate ONLY if windows --
 
 -- config.default_domain = 'WSL:Ubuntu'
--- config.front_end = "WebGpu"
--- config.max_fps = 120
--- for _, gpu in ipairs(wezterm.gui.enumerate_gpus()) do
---	if gpu.backend == "Vulkan" then
--- 		config.webgpu_preferred_adapter = gpu
--- 		break
--- 	end
--- end
+-- config.front_end = "OpenGL"
 
 -- and finally, return the configuration to wezterm
 return config
